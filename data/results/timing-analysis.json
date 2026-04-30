@@ -1,0 +1,21 @@
+{
+  "stage": "timing_analysis",
+  "comparison": {
+    "timing_delta_ms": 252.209,
+    "is_distinguishable": false,
+    "p_value": 0.2955,
+    "confidence_level": "low",
+    "effect_size_cohens_d": 0.2782,
+    "conclusion": "No timing side-channel detected \u2014 252.21ms delta is within noise threshold (5.0ms). OpenSSH response normalisation is effective.",
+    "recommendation": "No immediate action required. Continue monitoring with larger sample sets if operating in a high-sensitivity environment."
+  },
+  "per_result_type_summary": {
+    "auth_failed": {
+      "count": 250,
+      "mean_ms": 3090.246,
+      "std_ms": 906.221,
+      "min_ms": 1488.424,
+      "max_ms": 8996.702
+    }
+  }
+}

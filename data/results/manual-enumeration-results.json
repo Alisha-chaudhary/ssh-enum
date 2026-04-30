@@ -1,0 +1,1008 @@
+{
+  "target": "192.168.75.129:22",
+  "ssh_banner": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.14",
+  "total_usernames_tested": 50,
+  "results": [
+    {
+      "username": "root",
+      "result": "auth_failed",
+      "timings_s": [
+        2.3832987279999998,
+        4.751864874000034,
+        2.4246666129999994,
+        2.41513223000004,
+        2.4131944770000473
+      ],
+      "mean_s": 2.877631,
+      "std_s": 1.047843,
+      "min_s": 2.383299,
+      "max_s": 4.751865,
+      "ssh_banner": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.14",
+      "samples_collected": 5,
+      "error_messages": [
+        "Authentication failed."
+      ]
+    },
+    {
+      "username": "admin",
+      "result": "auth_failed",
+      "timings_s": [
+        4.666143067999997,
+        2.378091507000022,
+        2.3464703910000253,
+        2.3480494890000045,
+        4.647026750000009
+      ],
+      "mean_s": 3.277156,
+      "std_s": 1.259321,
+      "min_s": 2.34647,
+      "max_s": 4.666143,
+      "ssh_banner": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.14",
+      "samples_collected": 5,
+      "error_messages": [
+        "Authentication failed."
+      ]
+    },
+    {
+      "username": "ubuntu",
+      "result": "auth_failed",
+      "timings_s": [
+        2.8080291420000094,
+        2.823512623000056,
+        2.814156095000044,
+        2.809016133,
+        2.838380411000003
+      ],
+      "mean_s": 2.818619,
+      "std_s": 0.012637,
+      "min_s": 2.808029,
+      "max_s": 2.83838,
+      "ssh_banner": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.14",
+      "samples_collected": 5,
+      "error_messages": [
+        "Authentication failed."
+      ]
+    },
+    {
+      "username": "user",
+      "result": "auth_failed",
+      "timings_s": [
+        2.0798974639999415,
+        2.0579402150000305,
+        4.040874585999973,
+        2.085089530999994,
+        4.047649582999952
+      ],
+      "mean_s": 2.86229,
+      "std_s": 1.079038,
+      "min_s": 2.05794,
+      "max_s": 4.04765,
+      "ssh_banner": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.14",
+      "samples_collected": 5,
+      "error_messages": [
+        "Authentication failed."
+      ]
+    },
+    {
+      "username": "test",
+      "result": "auth_failed",
+      "timings_s": [
+        3.1872649360000196,
+        3.1991454709999516,
+        1.632953690000022,
+        3.1872720399999253,
+        3.1898262820000127
+      ],
+      "mean_s": 2.879292,
+      "std_s": 0.696742,
+      "min_s": 1.632954,
+      "max_s": 3.199145,
+      "ssh_banner": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.14",
+      "samples_collected": 5,
+      "error_messages": [
+        "Authentication failed."
+      ]
+    },
+    {
+      "username": "guest",
+      "result": "auth_failed",
+      "timings_s": [
+        2.884934727999962,
+        1.4884240540000064,
+        2.906426013999976,
+        2.905919620000077,
+        2.891835410999988
+      ],
+      "mean_s": 2.615508,
+      "std_s": 0.630127,
+      "min_s": 1.488424,
+      "max_s": 2.906426,
+      "ssh_banner": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.14",
+      "samples_collected": 5,
+      "error_messages": [
+        "Authentication failed."
+      ]
+    },
+    {
+      "username": "oracle",
+      "result": "auth_failed",
+      "timings_s": [
+        2.8859718190000194,
+        2.863679879000074,
+        5.674790663000067,
+        2.866148337000027,
+        2.86896690399999
+      ],
+      "mean_s": 3.431912,
+      "std_s": 1.253838,
+      "min_s": 2.86368,
+      "max_s": 5.674791,
+      "ssh_banner": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.14",
+      "samples_collected": 5,
+      "error_messages": [
+        "Authentication failed."
+      ]
+    },
+    {
+      "username": "postgres",
+      "result": "auth_failed",
+      "timings_s": [
+        3.3470237349999934,
+        1.686803718999954,
+        3.290282134999984,
+        3.2761146789999884,
+        3.288018017000013
+      ],
+      "mean_s": 2.977648,
+      "std_s": 0.722127,
+      "min_s": 1.686804,
+      "max_s": 3.347024,
+      "ssh_banner": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.14",
+      "samples_collected": 5,
+      "error_messages": [
+        "Authentication failed."
+      ]
+    },
+    {
+      "username": "mysql",
+      "result": "auth_failed",
+      "timings_s": [
+        2.854384481000011,
+        2.8514502900000025,
+        2.8426498370000672,
+        2.8493835050001053,
+        2.8561359530000345
+      ],
+      "mean_s": 2.850801,
+      "std_s": 0.005248,
+      "min_s": 2.84265,
+      "max_s": 2.856136,
+      "ssh_banner": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.14",
+      "samples_collected": 5,
+      "error_messages": [
+        "Authentication failed."
+      ]
+    },
+    {
+      "username": "ftp",
+      "result": "auth_failed",
+      "timings_s": [
+        3.6248129339999196,
+        1.8583565330000056,
+        3.617612228999974,
+        3.6306823189999022,
+        3.6312909529999615
+      ],
+      "mean_s": 3.272551,
+      "std_s": 0.790578,
+      "min_s": 1.858357,
+      "max_s": 3.631291,
+      "ssh_banner": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.14",
+      "samples_collected": 5,
+      "error_messages": [
+        "Authentication failed."
+      ]
+    },
+    {
+      "username": "www",
+      "result": "auth_failed",
+      "timings_s": [
+        1.5625798129999566,
+        3.0290250259999993,
+        3.026952150999932,
+        3.0048025429999825,
+        3.03223208899999
+      ],
+      "mean_s": 2.731118,
+      "std_s": 0.653322,
+      "min_s": 1.56258,
+      "max_s": 3.032232,
+      "ssh_banner": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.14",
+      "samples_collected": 5,
+      "error_messages": [
+        "Authentication failed."
+      ]
+    },
+    {
+      "username": "mail",
+      "result": "auth_failed",
+      "timings_s": [
+        2.4351230799999257,
+        2.431199387999982,
+        2.4233624380000265,
+        2.4370713539999542,
+        2.4307016149999754
+      ],
+      "mean_s": 2.431492,
+      "std_s": 0.005271,
+      "min_s": 2.423362,
+      "max_s": 2.437071,
+      "ssh_banner": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.14",
+      "samples_collected": 5,
+      "error_messages": [
+        "Authentication failed."
+      ]
+    },
+    {
+      "username": "pi",
+      "result": "auth_failed",
+      "timings_s": [
+        2.6883493340000086,
+        2.67531363899991,
+        2.670933065999975,
+        2.6768343910000567,
+        2.674663583000097
+      ],
+      "mean_s": 2.677219,
+      "std_s": 0.00659,
+      "min_s": 2.670933,
+      "max_s": 2.688349,
+      "ssh_banner": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.14",
+      "samples_collected": 5,
+      "error_messages": [
+        "Authentication failed."
+      ]
+    },
+    {
+      "username": "deploy",
+      "result": "auth_failed",
+      "timings_s": [
+        3.979058419000012,
+        2.016110712999989,
+        3.9175792720000118,
+        3.911755333999963,
+        1.9893561039999668
+      ],
+      "mean_s": 3.162772,
+      "std_s": 1.059336,
+      "min_s": 1.989356,
+      "max_s": 3.979058,
+      "ssh_banner": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.14",
+      "samples_collected": 5,
+      "error_messages": [
+        "Authentication failed."
+      ]
+    },
+    {
+      "username": "git",
+      "result": "auth_failed",
+      "timings_s": [
+        2.3917374650000056,
+        2.4092986480000036,
+        2.4092578429999776,
+        2.4118252700000085,
+        2.416958195999996
+      ],
+      "mean_s": 2.407815,
+      "std_s": 0.009519,
+      "min_s": 2.391737,
+      "max_s": 2.416958,
+      "ssh_banner": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.14",
+      "samples_collected": 5,
+      "error_messages": [
+        "Authentication failed."
+      ]
+    },
+    {
+      "username": "alisha",
+      "result": "auth_failed",
+      "timings_s": [
+        3.140248627999995,
+        3.1577046109999856,
+        3.1360447399999885,
+        1.628532408999945,
+        3.1207097259999728
+      ],
+      "mean_s": 2.836648,
+      "std_s": 0.675486,
+      "min_s": 1.628532,
+      "max_s": 3.157705,
+      "ssh_banner": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.14",
+      "samples_collected": 5,
+      "error_messages": [
+        "Authentication failed."
+      ]
+    },
+    {
+      "username": "ansible",
+      "result": "auth_failed",
+      "timings_s": [
+        2.8998019169999907,
+        2.9185987509999904,
+        2.9011993509999456,
+        2.9008105620000606,
+        2.9026792040000373
+      ],
+      "mean_s": 2.904618,
+      "std_s": 0.007884,
+      "min_s": 2.899802,
+      "max_s": 2.918599,
+      "ssh_banner": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.14",
+      "samples_collected": 5,
+      "error_messages": [
+        "Authentication failed."
+      ]
+    },
+    {
+      "username": "docker",
+      "result": "auth_failed",
+      "timings_s": [
+        3.418164307999973,
+        3.4203077740000936,
+        3.416814727999963,
+        3.4225628340000185,
+        3.4206602320000457
+      ],
+      "mean_s": 3.419702,
+      "std_s": 0.002246,
+      "min_s": 3.416815,
+      "max_s": 3.422563,
+      "ssh_banner": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.14",
+      "samples_collected": 5,
+      "error_messages": [
+        "Authentication failed."
+      ]
+    },
+    {
+      "username": "vagrant",
+      "result": "auth_failed",
+      "timings_s": [
+        4.348533565000025,
+        4.353195538000023,
+        4.341133601000024,
+        2.229706824999994,
+        2.2197059769999896
+      ],
+      "mean_s": 3.498455,
+      "std_s": 1.162781,
+      "min_s": 2.219706,
+      "max_s": 4.353196,
+      "ssh_banner": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.14",
+      "samples_collected": 5,
+      "error_messages": [
+        "Authentication failed."
+      ]
+    },
+    {
+      "username": "hadoop",
+      "result": "auth_failed",
+      "timings_s": [
+        2.0943475959999205,
+        4.091486652999947,
+        4.095048019000046,
+        2.093848935999972,
+        2.0954190779999635
+      ],
+      "mean_s": 2.89403,
+      "std_s": 1.09475,
+      "min_s": 2.093849,
+      "max_s": 4.095048,
+      "ssh_banner": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.14",
+      "samples_collected": 5,
+      "error_messages": [
+        "Authentication failed."
+      ]
+    },
+    {
+      "username": "kafka",
+      "result": "auth_failed",
+      "timings_s": [
+        4.181267288999948,
+        2.1251626819999956,
+        4.150257897000074,
+        4.162719235000054,
+        4.1660297409999885
+      ],
+      "mean_s": 3.757087,
+      "std_s": 0.912341,
+      "min_s": 2.125163,
+      "max_s": 4.181267,
+      "ssh_banner": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.14",
+      "samples_collected": 5,
+      "error_messages": [
+        "Authentication failed."
+      ]
+    },
+    {
+      "username": "nginx",
+      "result": "auth_failed",
+      "timings_s": [
+        4.832412103000024,
+        2.45380787900001,
+        4.7852927449999925,
+        4.78499161000002,
+        2.4385393559999784
+      ],
+      "mean_s": 3.859009,
+      "std_s": 1.289892,
+      "min_s": 2.438539,
+      "max_s": 4.832412,
+      "ssh_banner": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.14",
+      "samples_collected": 5,
+      "error_messages": [
+        "Authentication failed."
+      ]
+    },
+    {
+      "username": "apache",
+      "result": "auth_failed",
+      "timings_s": [
+        4.714560183999993,
+        2.409973272000002,
+        2.3994113150000658,
+        2.404877590999945,
+        4.7275679730000775
+      ],
+      "mean_s": 3.331278,
+      "std_s": 1.268709,
+      "min_s": 2.399411,
+      "max_s": 4.727568,
+      "ssh_banner": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.14",
+      "samples_collected": 5,
+      "error_messages": [
+        "Authentication failed."
+      ]
+    },
+    {
+      "username": "tomcat",
+      "result": "auth_failed",
+      "timings_s": [
+        1.872660857000028,
+        3.6531735439999693,
+        3.649789806000058,
+        3.6547169959999337,
+        3.655365417999974
+      ],
+      "mean_s": 3.297141,
+      "std_s": 0.796312,
+      "min_s": 1.872661,
+      "max_s": 3.655365,
+      "ssh_banner": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.14",
+      "samples_collected": 5,
+      "error_messages": [
+        "Authentication failed."
+      ]
+    },
+    {
+      "username": "redis",
+      "result": "auth_failed",
+      "timings_s": [
+        2.16654040100002,
+        4.207067058999883,
+        2.1577508249999937,
+        4.218378165000104,
+        4.211961839999958
+      ],
+      "mean_s": 3.39234,
+      "std_s": 1.12302,
+      "min_s": 2.157751,
+      "max_s": 4.218378,
+      "ssh_banner": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.14",
+      "samples_collected": 5,
+      "error_messages": [
+        "Authentication failed."
+      ]
+    },
+    {
+      "username": "mongodb",
+      "result": "auth_failed",
+      "timings_s": [
+        3.3329893340001036,
+        3.331503567000027,
+        3.331561830999817,
+        3.3460589530000107,
+        1.7075110980001682
+      ],
+      "mean_s": 3.009925,
+      "std_s": 0.728097,
+      "min_s": 1.707511,
+      "max_s": 3.346059,
+      "ssh_banner": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.14",
+      "samples_collected": 5,
+      "error_messages": [
+        "Authentication failed."
+      ]
+    },
+    {
+      "username": "elastic",
+      "result": "auth_failed",
+      "timings_s": [
+        4.335782558999881,
+        4.331052,
+        2.218272610000213,
+        4.331082988999924,
+        4.33400067599996
+      ],
+      "mean_s": 3.910038,
+      "std_s": 0.945728,
+      "min_s": 2.218273,
+      "max_s": 4.335783,
+      "ssh_banner": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.14",
+      "samples_collected": 5,
+      "error_messages": [
+        "Authentication failed."
+      ]
+    },
+    {
+      "username": "kibana",
+      "result": "auth_failed",
+      "timings_s": [
+        2.6541882060000717,
+        2.6436600229999385,
+        2.6717470879998473,
+        2.6660005979999823,
+        2.6679775140000856
+      ],
+      "mean_s": 2.660715,
+      "std_s": 0.011574,
+      "min_s": 2.64366,
+      "max_s": 2.671747,
+      "ssh_banner": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.14",
+      "samples_collected": 5,
+      "error_messages": [
+        "Authentication failed."
+      ]
+    },
+    {
+      "username": "grafana",
+      "result": "auth_failed",
+      "timings_s": [
+        1.7977982370000518,
+        3.507248706999917,
+        1.8009953069999938,
+        1.8343570970000656,
+        3.4988842049999676
+      ],
+      "mean_s": 2.487857,
+      "std_s": 0.926871,
+      "min_s": 1.797798,
+      "max_s": 3.507249,
+      "ssh_banner": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.14",
+      "samples_collected": 5,
+      "error_messages": [
+        "Authentication failed."
+      ]
+    },
+    {
+      "username": "prometheus",
+      "result": "auth_failed",
+      "timings_s": [
+        2.392314827000064,
+        4.681947200999957,
+        2.3856708260000232,
+        2.388371795000012,
+        2.3968478650001543
+      ],
+      "mean_s": 2.849031,
+      "std_s": 1.02464,
+      "min_s": 2.385671,
+      "max_s": 4.681947,
+      "ssh_banner": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.14",
+      "samples_collected": 5,
+      "error_messages": [
+        "Authentication failed."
+      ]
+    },
+    {
+      "username": "nagios",
+      "result": "auth_failed",
+      "timings_s": [
+        4.120743612999831,
+        2.1035836470000504,
+        2.099553707000041,
+        2.1079569460000585,
+        4.122863781999968
+      ],
+      "mean_s": 2.91094,
+      "std_s": 1.105366,
+      "min_s": 2.099554,
+      "max_s": 4.122864,
+      "ssh_banner": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.14",
+      "samples_collected": 5,
+      "error_messages": [
+        "Authentication failed."
+      ]
+    },
+    {
+      "username": "zabbix",
+      "result": "auth_failed",
+      "timings_s": [
+        1.7050373639999634,
+        1.7106044350000502,
+        3.307491144000096,
+        3.308731095999974,
+        3.299158774000034
+      ],
+      "mean_s": 2.666205,
+      "std_s": 0.874891,
+      "min_s": 1.705037,
+      "max_s": 3.308731,
+      "ssh_banner": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.14",
+      "samples_collected": 5,
+      "error_messages": [
+        "Authentication failed."
+      ]
+    },
+    {
+      "username": "splunk",
+      "result": "auth_failed",
+      "timings_s": [
+        1.9913994109999749,
+        3.905217665000009,
+        3.9004646139999295,
+        3.904400717000044,
+        2.0049438969999755
+      ],
+      "mean_s": 3.141285,
+      "std_s": 1.043528,
+      "min_s": 1.991399,
+      "max_s": 3.905218,
+      "ssh_banner": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.14",
+      "samples_collected": 5,
+      "error_messages": [
+        "Authentication failed."
+      ]
+    },
+    {
+      "username": "backup",
+      "result": "auth_failed",
+      "timings_s": [
+        3.3135420539999814,
+        3.320035022999946,
+        3.3175151650000316,
+        1.7004977209999197,
+        3.322788355000057
+      ],
+      "mean_s": 2.994876,
+      "std_s": 0.723587,
+      "min_s": 1.700498,
+      "max_s": 3.322788,
+      "ssh_banner": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.14",
+      "samples_collected": 5,
+      "error_messages": [
+        "Authentication failed."
+      ]
+    },
+    {
+      "username": "support",
+      "result": "auth_failed",
+      "timings_s": [
+        2.1837061680000716,
+        2.18321423999987,
+        2.1750682229999256,
+        2.1759884190000776,
+        4.267948052999827
+      ],
+      "mean_s": 2.597185,
+      "std_s": 0.933993,
+      "min_s": 2.175068,
+      "max_s": 4.267948,
+      "ssh_banner": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.14",
+      "samples_collected": 5,
+      "error_messages": [
+        "Authentication failed."
+      ]
+    },
+    {
+      "username": "helpdesk",
+      "result": "auth_failed",
+      "timings_s": [
+        2.7583909800000583,
+        2.760187031999976,
+        2.7594252569999753,
+        2.7598648619998585,
+        2.750602559000072
+      ],
+      "mean_s": 2.757694,
+      "std_s": 0.004022,
+      "min_s": 2.750603,
+      "max_s": 2.760187,
+      "ssh_banner": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.14",
+      "samples_collected": 5,
+      "error_messages": [
+        "Authentication failed."
+      ]
+    },
+    {
+      "username": "operator",
+      "result": "auth_failed",
+      "timings_s": [
+        3.994060420000096,
+        2.043395052000051,
+        3.959181987999955,
+        3.9968831369999407,
+        2.044928114000186
+      ],
+      "mean_s": 3.20769,
+      "std_s": 1.062255,
+      "min_s": 2.043395,
+      "max_s": 3.996883,
+      "ssh_banner": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.14",
+      "samples_collected": 5,
+      "error_messages": [
+        "Authentication failed."
+      ]
+    },
+    {
+      "username": "service",
+      "result": "auth_failed",
+      "timings_s": [
+        4.375963735000141,
+        2.2373263219999444,
+        2.2257092530001046,
+        2.2368946349999987,
+        2.228608045000101
+      ],
+      "mean_s": 2.6609,
+      "std_s": 0.958763,
+      "min_s": 2.225709,
+      "max_s": 4.375964,
+      "ssh_banner": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.14",
+      "samples_collected": 5,
+      "error_messages": [
+        "Authentication failed."
+      ]
+    },
+    {
+      "username": "sysadmin",
+      "result": "auth_failed",
+      "timings_s": [
+        2.6318784390000474,
+        2.6487274969999817,
+        2.6711182730000473,
+        2.6609148299999106,
+        2.6610866869998517
+      ],
+      "mean_s": 2.654745,
+      "std_s": 0.015045,
+      "min_s": 2.631878,
+      "max_s": 2.671118,
+      "ssh_banner": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.14",
+      "samples_collected": 5,
+      "error_messages": [
+        "Authentication failed."
+      ]
+    },
+    {
+      "username": "netadmin",
+      "result": "auth_failed",
+      "timings_s": [
+        3.6385137289998966,
+        1.8591325959998812,
+        3.641082439999991,
+        8.996701746000099,
+        3.7393823119998615
+      ],
+      "mean_s": 4.374963,
+      "std_s": 2.700684,
+      "min_s": 1.859133,
+      "max_s": 8.996702,
+      "ssh_banner": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.14",
+      "samples_collected": 5,
+      "error_messages": [
+        "Authentication failed.",
+        "Authentication timeout."
+      ]
+    },
+    {
+      "username": "dbadmin",
+      "result": "auth_failed",
+      "timings_s": [
+        2.982173720999981,
+        2.9640743600000405,
+        2.969542620999846,
+        2.972351220000064,
+        2.9844190820001586
+      ],
+      "mean_s": 2.974512,
+      "std_s": 0.00859,
+      "min_s": 2.964074,
+      "max_s": 2.984419,
+      "ssh_banner": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.14",
+      "samples_collected": 5,
+      "error_messages": [
+        "Authentication failed."
+      ]
+    },
+    {
+      "username": "webadmin",
+      "result": "auth_failed",
+      "timings_s": [
+        4.631449927999938,
+        2.38944479099996,
+        2.380987098999867,
+        2.371032588999924,
+        4.65606839499992
+      ],
+      "mean_s": 3.285797,
+      "std_s": 1.239692,
+      "min_s": 2.371033,
+      "max_s": 4.656068,
+      "ssh_banner": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.14",
+      "samples_collected": 5,
+      "error_messages": [
+        "Authentication failed."
+      ]
+    },
+    {
+      "username": "ftpuser",
+      "result": "auth_failed",
+      "timings_s": [
+        3.192235086999972,
+        3.1789679850000994,
+        3.1802396949999547,
+        3.175098501000093,
+        3.233092761999842
+      ],
+      "mean_s": 3.191927,
+      "std_s": 0.023887,
+      "min_s": 3.175099,
+      "max_s": 3.233093,
+      "ssh_banner": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.14",
+      "samples_collected": 5,
+      "error_messages": [
+        "Authentication failed."
+      ]
+    },
+    {
+      "username": "sshuser",
+      "result": "auth_failed",
+      "timings_s": [
+        3.8087934390000555,
+        3.8136601930000325,
+        3.80922032400008,
+        3.821897369999988,
+        3.8064485180000247
+      ],
+      "mean_s": 3.812004,
+      "std_s": 0.006114,
+      "min_s": 3.806449,
+      "max_s": 3.821897,
+      "ssh_banner": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.14",
+      "samples_collected": 5,
+      "error_messages": [
+        "Authentication failed."
+      ]
+    },
+    {
+      "username": "devops",
+      "result": "auth_failed",
+      "timings_s": [
+        3.384139095999899,
+        3.3690336459999344,
+        3.3718431100001,
+        3.376132921999897,
+        3.374460162000105
+      ],
+      "mean_s": 3.375122,
+      "std_s": 0.005714,
+      "min_s": 3.369034,
+      "max_s": 3.384139,
+      "ssh_banner": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.14",
+      "samples_collected": 5,
+      "error_messages": [
+        "Authentication failed."
+      ]
+    },
+    {
+      "username": "developer",
+      "result": "auth_failed",
+      "timings_s": [
+        3.2671235669999987,
+        3.2197503899999447,
+        3.2069952490001015,
+        3.2191443679998883,
+        3.24218486399991
+      ],
+      "mean_s": 3.23104,
+      "std_s": 0.02384,
+      "min_s": 3.206995,
+      "max_s": 3.267124,
+      "ssh_banner": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.14",
+      "samples_collected": 5,
+      "error_messages": [
+        "Authentication failed."
+      ]
+    },
+    {
+      "username": "analyst",
+      "result": "auth_failed",
+      "timings_s": [
+        4.174139233999995,
+        4.175089806000187,
+        4.168831611999849,
+        4.164274625000189,
+        4.219201044000101
+      ],
+      "mean_s": 4.180307,
+      "std_s": 0.022174,
+      "min_s": 4.164275,
+      "max_s": 4.219201,
+      "ssh_banner": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.14",
+      "samples_collected": 5,
+      "error_messages": [
+        "Authentication failed."
+      ]
+    },
+    {
+      "username": "manager",
+      "result": "auth_failed",
+      "timings_s": [
+        2.33362926399991,
+        2.3201155259998814,
+        4.563914004000026,
+        4.55644539900004,
+        2.3272040489998744
+      ],
+      "mean_s": 3.220262,
+      "std_s": 1.223184,
+      "min_s": 2.320116,
+      "max_s": 4.563914,
+      "ssh_banner": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.14",
+      "samples_collected": 5,
+      "error_messages": [
+        "Authentication failed."
+      ]
+    },
+    {
+      "username": "intern",
+      "result": "auth_failed",
+      "timings_s": [
+        2.729968779000046,
+        2.724401354000065,
+        2.724605078999957,
+        2.7232829029999266,
+        2.7324409530001503
+      ],
+      "mean_s": 2.72694,
+      "std_s": 0.004022,
+      "min_s": 2.723283,
+      "max_s": 2.732441,
+      "ssh_banner": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.14",
+      "samples_collected": 5,
+      "error_messages": [
+        "Authentication failed."
+      ]
+    },
+    {
+      "username": "newuser",
+      "result": "auth_failed",
+      "timings_s": [
+        3.9338122720000683,
+        3.9306647139999313,
+        2.0205938880001213,
+        3.931403308999961,
+        2.0145698689998426
+      ],
+      "mean_s": 3.166209,
+      "std_s": 1.048551,
+      "min_s": 2.01457,
+      "max_s": 3.933812,
+      "ssh_banner": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.14",
+      "samples_collected": 5,
+      "error_messages": [
+        "Authentication failed."
+      ]
+    }
+  ]
+}

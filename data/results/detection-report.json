@@ -1,0 +1,26 @@
+{
+  "summary": {
+    "total_events": 9,
+    "high_severity_alerts": 0,
+    "rapid_probe_alerts": 0,
+    "distributed_probe_alerts": 0,
+    "wordlist_match_rate": 0.75
+  },
+  "rapid_user_probes": [],
+  "wordlist_correlation": {
+    "type": "wordlist_correlation",
+    "wordlist": "data/wordlists/common-usernames-50.txt",
+    "attempted_usernames": 4,
+    "wordlist_size": 50,
+    "match_count": 3,
+    "match_rate": 0.75,
+    "matched_usernames": [
+      "admin",
+      "alisha",
+      "root"
+    ],
+    "severity": "HIGH",
+    "conclusion": "Strong wordlist correlation \u2014 likely automated attack"
+  },
+  "distributed_probing": []
+}
