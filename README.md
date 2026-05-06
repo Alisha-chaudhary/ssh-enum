@@ -2,10 +2,9 @@
 
 > **A controlled lab investigation into whether modern OpenSSH leaks username existence
 > and how to detect the attempt if it is made.**
-> ⚠️ **Legal Notice:** This project was conducted in a fully isolated, self-owned lab
-> environment. All findings apply only to that environment. Never test systems you do not
-> own or have **explicit written authorisation** to test. Unauthorised computer access is
-> illegal in most jurisdictions.
+
+>
+>⚠️ **Legal Notice:** This project was conducted in a fully isolated, self-owned lab environment. All findings apply only to that environment. Never test systems you do not own or have **explicit written authorisation** to test. Unauthorised computer access is illegal in most jurisdictions.
 
 ---
 
