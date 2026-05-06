@@ -28,7 +28,7 @@
 
 ## 🎯 Problem Statement
 
-**User enumeration** — the ability to determine whether a specific username exists on a
+**User enumeration** - the ability to determine whether a specific username exists on a
 remote system without valid credentials. It is a critical first step in the attack chain
 leading to account compromise:
 
@@ -38,7 +38,7 @@ Reconnaissance → [User Enumeration] → Password Attack → Access
                This project investigates here
 ```
 
-If an attacker can distinguish "this user exists" from "this user does not exist" byanalysing server responses, they can dramatically reduce the keyspace for subsequent
+If an attacker can distinguish "this user exists" from "this user does not exist" by analysing server responses, they can dramatically reduce the keyspace for subsequent
 brute force or credential stuffing attacks.
 
 SSH is a frequent target because it is nearly universally exposed, handles password authentication, and older implementations had measurable timing differences between valid and invalid usernames (CVE-2016-6210).
@@ -144,7 +144,7 @@ a plain-language conclusion. Threshold: delta ≥ 5ms AND p < 0.05 triggers a si
 warning.
 
 **`EnumerationDetector`** — Four detection patterns:
-- **Rapid user probes**: sliding window — same IP, ≥10 distinct usernames within 60s
+- **Rapid user probes**: sliding window - same IP, ≥10 distinct usernames within 60s
 - **Wordlist correlation**: match rate between attempted usernames and known attack lists
 - **Sequential timing**: coefficient of variation on inter-attempt gaps (low CoV → tool)
 - **Distributed probing**: same username from multiple IPs (credential stuffing recon)
@@ -262,7 +262,7 @@ auth.log:
 
 ---
 
-## 🧠 Thought Process
+## Thought Process
 
 ### Why Manual SSH Enumeration First?
 
@@ -271,8 +271,8 @@ tool output, you need to understand what the raw protocol actually says. Running
 `ssh ghost@target` and observing the exact error message tells you whether there is
 *anything* to enumerate before investing time in automation.
 
-The first observation — that `Permission denied (publickey,password)` looks identical
-regardless of whether the user exists — was the central finding. Everything that followed
+The first observation, that `Permission denied (publickey,password)` looks identical
+regardless of whether the user exists, was the central finding. Everything that followed
 was validation of that result.
 
 ### Assumptions That Were Made (and Re-examined)
@@ -392,7 +392,7 @@ completing the auth handshake are a signature of banner-only fingerprinting. Thi
 be implemented as a `Zeek` or `Suricata` rule.
 
 **Jupyter notebooks for statistical reporting.** The timing data collected is amenable
-to visualisation — box plots of per-username timing distributions, scatter plots of
+to visualisation - box plots of per-username timing distributions, scatter plots of
 attempt frequency over time, heatmaps of source IPs. Notebooks would make the analysis
 reproducible and shareable.
 
