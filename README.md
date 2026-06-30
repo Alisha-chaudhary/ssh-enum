@@ -459,8 +459,8 @@ ssh-enumeration-analysis/
 
 ```bash
 # 1. Clone and install dependencies
-git clone https://github.com/<you>/ssh-enumeration-analysis
-cd ssh-enumeration-analysis
+git clone https://github.com/Alisha-chaudhary/ssh-enum
+cd ssh-enum
 pip install -r requirements.txt
 
 # 2. Run just the banner fingerprint (no credentials needed)
