@@ -1,10 +1,20 @@
-# SSH User Enumeration: Attack Analysis & Detection Engineering
+# ssh-enum
 
-> **A controlled lab investigation into whether modern OpenSSH leaks username existence
-> and how to detect the attempt if it is made.**
+## Statistical Validation Study of CVE-2016-6210
 
->
->⚠️ **Legal Notice:** This project was conducted in a fully isolated, self-owned lab environment. All findings apply only to that environment. Never test systems you do not own or have **explicit written authorisation** to test. Unauthorised computer access is illegal in most jurisdictions.
+*A reproducible re-investigation of OpenSSH username enumeration using statistical analysis.*
+
+This project re-investigates **CVE-2016-6210**, a documented OpenSSH timing side-channel, to determine whether it remains observable on a modern Ubuntu Server using the default PAM configuration.
+
+Rather than assuming the published behaviour still applies, the project evaluates authentication timing measurements collected through manual probing, Hydra, and Metasploit using **Welch's t-test** and **Cohen's d** to distinguish genuine timing signals from measurement noise.
+
+The study found **no statistically significant timing difference** on the tested default configuration, demonstrating the value of reproducible experimentation and evidence-based validation of published security claims.
+
+---
+
+⚠️ **Legal Notice**
+
+This project was conducted entirely within a self-owned, isolated laboratory environment. All findings apply only to the tested configuration. Never test systems you do not own or have explicit written authorization to test.
 
 ---
 
